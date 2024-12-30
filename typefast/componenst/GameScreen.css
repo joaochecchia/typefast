@@ -1,0 +1,44 @@
+.gameContainer{
+    padding: 4rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+.menuContainer{
+    display: flex;
+    gap: 1.4rem;
+    height: 3rem;
+    width: 25rem;
+    border: 2px solid #40414F;
+    background-color: #343541;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wordsContainer{
+    width: 32rem;
+    height: 14rem;
+    background-color: #343541;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    padding: 1.1rem;
+    overflow: hidden;
+}
+
+input{
+    width: 25rem;
+    background-color: #343541;
+    border-radius: 5px;
+    border: 2px solid #40414F;
+    color: #E7E7E8;
+    padding: 3px;
+}
+
+span{
+    font-size: 22px;
+}
